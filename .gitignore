@@ -19,9 +19,6 @@ packages/
 # Dotnet Tools
 *.dotnet_tool_src
 
-# Logs
-*.log
-
 # User-specific files
 *.swp
 .vs

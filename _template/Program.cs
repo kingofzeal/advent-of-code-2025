@@ -89,10 +89,18 @@ class Program
     }
 
     // Example Solve for templating: replace this with day's solver. Returns both Part 1 and Part 2 in a single string.
-    // The returned string should contain both results (for example two lines: "Part 1: ..." and "Part 2: ...").
+    // The returned string should contain both results formatted as two lines: "Part 1: <answer>" and "Part 2: <answer>".
+    // If Part 2 is not yet available, return "Part 2: Not yet available" as a placeholder.
     static string Solve(string input)
     {
-        var numbers = input.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
-        return numbers.Sum(n => (long)n).ToString();
+        var lines = input.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+        
+        // Part 1 logic
+        var part1 = lines.Length; // Example: count lines
+        
+        // Part 2 logic (implement when Part 2 is revealed)
+        var part2 = "Not yet available"; // Placeholder until Part 2 is available
+        
+        return $"Part 1: {part1}\nPart 2: {part2}";
     }
 }

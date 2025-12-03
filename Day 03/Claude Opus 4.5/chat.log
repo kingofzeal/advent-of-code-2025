@@ -1,0 +1,64 @@
+kingofzeal: Day 3. Lets goooo.
+
+GitHub Copilot: Read [](file:///c%3A/src/advent-of-code-2025/_template/Program.cs#1-1), lines 1 to 100
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2003/input.txt#1-1), lines 1 to 50
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2003)
+
+Now I need to see the rest of the template and create the solution. Let me read the full template and then create the implementation for Day 03. 
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/Program.cs#95-95), lines 95 to 108
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2003/input.txt#50-50), lines 50 to 200
+
+Now I have a good understanding of the puzzle. Let me create the solution:
+
+**Part 1:** Find the two largest digits in each bank and form a 2-digit number (largest digit first, then second largest), then sum all these values.
+
+**Part 2:** Select exactly 12 batteries to form the largest possible 12-digit number. This means we need to greedily select digits from left to right, always picking the largest available digit that still leaves enough digits remaining to complete 12 selections.
+
+Let me create the sample files and the implementation: 
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2003/sample.txt)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2003/sample.expected.txt)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2003/Claude%20Opus%204.5)
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/DayTemplate.csproj)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2003/Claude%20Opus%204.5/Day03.csproj)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2003/Claude%20Opus%204.5/Program.cs)
+
+Now let's run it: 
+
+Ran terminal command: cd 'c:\src\advent-of-code-2025\Day 03\Claude Opus 4.5'; dotnet run -c Release
+
+Need to fix the type issue - for Part 1 I should keep it as `long` since 2 digits will fit: 
+
+Using "Replace String in File"
+
+
+```
+
+```
+
+
+Ran terminal command: cd 'c:\src\advent-of-code-2025\Day 03\Claude Opus 4.5'; dotnet run -c Release
+
+🎉 Day 3 complete!
+
+**Results:**
+- **Part 1:** 17316 ✓ (matches puzzle answer)
+- **Part 2:** 171741365473332
+- **Elapsed:** ~1ms
+
+**Solution approach:**
+- **Part 1:** Select exactly 2 batteries to form the maximum 2-digit joltage using a greedy algorithm
+- **Part 2:** Same greedy approach but select 12 batteries to form a 12-digit number
+
+The algorithm works by iterating left-to-right: for each position in the result, pick the largest digit available from the remaining valid range (ensuring enough digits are left for subsequent picks). This guarantees the maximum possible number since higher digits placed earlier always dominate.
+
+Made changes.

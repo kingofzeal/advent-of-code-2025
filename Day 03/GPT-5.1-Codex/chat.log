@@ -1,0 +1,79 @@
+kingofzeal: Day 3. Lets goooo.
+
+GitHub Copilot: Created 4 todos
+
+Starting: *Inspect Day03 inputs* (1/4)
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2003/sample.txt)
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2003/sample.expected.txt)
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2003/input.txt#1-1), lines 1 to 20
+
+Completed: *Inspect Day03 inputs* (1/4)
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2003)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2003/GPT-5.1-Codex)
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2003/Self)
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/DayTemplate.csproj)
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/Program.cs)
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/README.md)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2003/GPT-5.1-Codex/Day03.csproj)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2003/GPT-5.1-Codex/Program.cs)
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2001/GPT-5.1-Codex-Mini/README.md)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2003/GPT-5.1-Codex/README.md)
+
+Completed: *Scaffold GPT-5.1-Codex solver* (2/4)
+
+Starting: *Implement Day3 logic* (3/4)
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Completed: *Implement Day3 logic* (3/4)
+
+Ran terminal command: cd "C:\src\advent-of-code-2025\Day 03\GPT-5.1-Codex"; dotnet run -c Release
+
+Completed: *Run and verify* (4/4)
+
+**Day 3 Solver**
+- Added the new implementation scaffold (`Day 03/GPT-5.1-Codex/Day03.csproj`, `Day 03/GPT-5.1-Codex/README.md`) copied from the template so it builds and documents the GPT-5.1-Codex solution.
+- Replaced the template logic in `Day 03/GPT-5.1-Codex/Program.cs` with the actual solver: part 1 now scans each bank with a suffix-max pass to find the best two-digit subsequence, and part 2 uses a greedy sliding-window subsequence picker to keep the lexicographically largest 12 digits, summing both totals across all banks.
+- Added guardrails for malformed banks and kept the attribution/check so the harness still enforces the GeneratedBy requirement.
+
+**Run**
+- `dotnet run -c Release` (Day 03/GPT-5.1-Codex) → Sample `357 / 3121910778619`, Input `Part 1: 17316`, `Part 2: 171741365473332`.
+
+All good to commit when you’re ready.
+
+Made changes.

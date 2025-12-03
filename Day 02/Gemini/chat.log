@@ -1,0 +1,54 @@
+kingofzeal: Use the instructions. Lets solve Day 2.
+
+GitHub Copilot: Created [](file:///c%3A/src/advent-of-code-2025/Day%2002/sample.txt)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2002/sample.expected.txt)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2002/Gemini)
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/Program.cs#1-1), lines 1 to 100
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/DayTemplate.csproj)
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2002/sample.txt)
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2002/sample.expected.txt)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2002/sample.expected.txt)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2002/Gemini/Day02.csproj)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2002/Gemini/Program.cs)
+
+Using "Replace String in File"
+
+
+```
+
+```
+
+
+Ran terminal command: cd 'c:\src\advent-of-code-2025\Day 02\Gemini'; dotnet run -c Release
+
+I have implemented the solution for Day 2.
+
+**Summary of changes:**
+1.  Created `Day 02/Gemini` folder.
+2.  Extracted the sample input and expected output from `puzzle.txt` into `Day 02/sample.txt` and `Day 02/sample.expected.txt`.
+3.  Created `Day 02/Gemini/Day02.csproj` and `Day 02/Gemini/Program.cs`.
+4.  Implemented the logic for finding invalid IDs based on the rules for Part 1 (repeated twice) and Part 2 (repeated at least twice).
+5.  Verified the solution against the sample data.
+
+**Results:**
+-   **Part 1**: 40398804950
+-   **Part 2**: 65794984339
+
+You can run the solution yourself with:
+```powershell
+cd 'c:\src\advent-of-code-2025\Day 02\Gemini'
+dotnet run -c Release
+cd 'c:\src\advent-of-code-2025\Day 02\Gemini'
+dotnet run -c Release
+
+
+Made changes.

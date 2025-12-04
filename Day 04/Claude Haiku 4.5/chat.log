@@ -1,0 +1,62 @@
+kingofzeal: Day 4! Don't forget to make a new subfolder for your solution.
+
+GitHub Copilot: I'll solve Day 4 of Advent of Code. Let me start by reading the puzzle and setting up the solution. 
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2004/puzzle.txt#1-1), lines 1 to 100
+
+Let me read the rest of the puzzle: 
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2004/puzzle.txt#100-100), lines 100 to 172
+
+Now let me check the sample files: Let me check the template and create the sample files first: 
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/Program.cs#1-1), lines 1 to 50
+
+Now I'll create the sample files and a new subfolder for my solution. Let me create the samples first: 
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2004/sample.txt)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2004/sample.expected.txt)
+
+Now I'll create the GitHub Copilot subfolder and copy the template files: 
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/Program.cs)
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/DayTemplate.csproj)
+
+Now I'll create the GitHub Copilot subfolder with the solution: 
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2004/GitHub%20Copilot)
+
+Now I'll create the csproj file and the solution: 
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2004/GitHub%20Copilot/Day04.csproj)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2004/GitHub%20Copilot/Program.cs)
+
+Now let me run the solution to verify it works: 
+
+Ran terminal command: cd 'c:\src\advent-of-code-2025\Day 04\GitHub Copilot'; dotnet run -c Release
+
+Perfect! The solution is working correctly. Let me create a README for the solution: 
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2004/GitHub%20Copilot/README.md)
+
+✅ **Day 4 Complete!**
+
+I've successfully created a new subfolder `GitHub Copilot` in `Day 04` and implemented the solution:
+
+**What I did:**
+1. Created sample test files (`sample.txt` and `sample.expected.txt`) with the example from the puzzle
+2. Created the `GitHub Copilot` subfolder with a complete .NET solution
+3. Implemented the logic:
+   - **Part 1**: Count paper rolls that can be accessed (fewer than 4 rolls in adjacent 8 positions)
+   - **Part 2**: Simulate iterative removal of accessible rolls, counting total removed
+4. Verified the solution passes the sample tests and ran on the full puzzle input
+
+**Results:**
+- Part 1: **1409** rolls can be accessed
+- Part 2: **8366** rolls can be removed through the iterative process
+- Execution time: ~12ms
+
+Made changes.

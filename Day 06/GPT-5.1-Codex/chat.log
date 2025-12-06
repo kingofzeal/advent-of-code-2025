@@ -1,0 +1,55 @@
+kingofzeal: Day 6. Per instructions, use your own solution, do not look at the existing ones.
+
+GitHub Copilot: Created 4 todos
+
+Starting: *Inspect Day 06 files* (1/4)
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2006/sample.txt)
+
+Read [](file:///c%3A/src/advent-of-code-2025/Day%2006/sample.expected.txt)
+
+Completed: *Inspect Day 06 files* (1/4)
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/DayTemplate.csproj)
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/Program.cs)
+
+Read [](file:///c%3A/src/advent-of-code-2025/_template/README.md)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2006/GPT-5.1-Codex)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2006/GPT-5.1-Codex/Day06.csproj)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2006/GPT-5.1-Codex/README.md)
+
+Created [](file:///c%3A/src/advent-of-code-2025/Day%2006/GPT-5.1-Codex/Program.cs)
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Completed: *Scaffold GPT-5.1-Codex solution* (2/4)
+
+Starting: *Implement solver logic* (3/4)
+
+Completed: *Implement solver logic* (3/4)
+
+Ran terminal command: Set-Location -Path "c:\src\advent-of-code-2025\Day 06\GPT-5.1-Codex"; dotnet run -c Release
+
+Starting: *Validate via dotnet run* (4/4)
+
+Completed: *Validate via dotnet run* (4/4)
+
+**Day 06 Update**
+- Added `Day 06/GPT-5.1-Codex/Day06.csproj` and README.md, plus a fresh Program.cs attributed to GPT-5.1-Codex (Preview), giving this day its own runnable project scaffold.
+- Implemented the solver in `Day 06/GPT-5.1-Codex/Program.cs`: it builds a padded char grid of the worksheet, finds contiguous non-empty column blocks (individual problems), and evaluates each twice—first by reading rows top-to-bottom for Part 1, then by reading columns right-to-left with digits stacked top→bottom for Part 2. All arithmetic uses `BigInteger` to avoid overflow, and helpers ensure operators and numbers are extracted robustly even with irregular spacing.
+- Reporting grand totals from the actual input: Part 1 = `6957525317641`, Part 2 = `13215665360076`.
+
+**Tests**
+- `dotnet run -c Release` (from `Day 06/GPT-5.1-Codex`): sample validation passes and puzzle input produces the totals above.
+
+Made changes.
